@@ -61,9 +61,9 @@ color: var(--gray) !important;
   --letterspace01: 0.1px;
   --letterspace05: 0.5px;
   --letterspace-jptxt: 1.2px;
-  --fontsize-jp: 12px;
-  --lh-jp: 1.4rem;
-  --lh-eng: 1.3rem;
+  --fontsize-jp: 11.5px;
+  --lh-jp: 1.5rem;
+  --lh-eng: 1.4rem;
   --ws-eng: -2px;
   --white: white;
   --softwhite: #fffdef;
@@ -157,7 +157,7 @@ color: var(--gray) !important;
   .logoA {
     right: 22%;
     bottom: 35%;
-    width: 90px;
+    width: 70px;
     height: 100px;
 
     transform: rotate(0deg); 
@@ -166,7 +166,7 @@ color: var(--gray) !important;
   .logoB {
     right: 6%;
     bottom: 23%;
-    width: 97px;
+    width: 77px;
     height: 100px;
     transform: rotate(90deg); 
   }
@@ -174,7 +174,7 @@ color: var(--gray) !important;
   .logoC {
     right: 30%;
     bottom: 12%;
-    width: 63px;
+    width: 50px;
     height: 110px;
     transform: rotate(0deg);
   }
@@ -280,7 +280,7 @@ padding: 0;
 :lang(en) {
 letter-spacing: var(--letterspace01);
 line-height: var(--lh-eng);
-font-size: 0.9rem;
+font-size: 0.8rem;
 }
 
 p:lang(jp)
